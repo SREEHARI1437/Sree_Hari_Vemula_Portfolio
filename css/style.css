@@ -681,10 +681,10 @@ section {
   color: #007acc; /* already applied for blue */
   text-align: center;
 }
-/* Arrow bullets for experience description*/
+/* Arrow bullets */
 .experience-list {
-  list-style: none;       /* remove default dots */
-  padding-left: 0;
+  list-style: none;       
+  padding-left: 0;        
   margin: 0;
 }
 
@@ -696,11 +696,11 @@ section {
 }
 
 .experience-list li::before {
-  content: "➤";           /* the arrow */
+  content: "➤";           /* custom arrow */
   position: absolute;
   left: 0;
   top: 0;
-  transform: translateY(2px); /* aligns arrow nicely with text */
+  transform: translateY(2px); 
   font-size: 14px;
-  color: #0077cc;         /* change color if you want */
+  color: #0077cc;         /* custom arrow color */
 }
